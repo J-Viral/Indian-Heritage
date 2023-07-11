@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: orange;
+}
+
+.head {
+    text-align: center;
+    color: red;
+}
+.nav {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.img_wed {
+    margin-left: 430px;
+}
+.img_cuisine, .img_cloth {
+    margin-left: 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}
+
